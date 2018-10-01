@@ -1,0 +1,11 @@
+{
+  "name": "mi_primera_aplicacion",
+  "version": "1.0.0",
+  "description": "Esta es mi primera aplicacion con typescript",
+  "main": "src/script1.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Peña",
+  "license": "ISC"
+}
