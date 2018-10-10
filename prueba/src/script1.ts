@@ -1,16 +1,6 @@
-interface IS{
-    metodo2(): void
-}
-abstract class A implements IS{
-    private a: String
-    private b: Number
-    constructor(){
-        this.a="Nombre"
-        this.b=22
-    }
-    abstract metodo1(): Number
-    public metodo2(): void{
-        console.log(this.a)
-    }
-}
-export{A}
+import NodeRSA from 'node-rsa'
+const key = new NodeRSA({b:512})
+const text= "Hola Amigos"
+const keyData="-----BEGIN CERTIFICATE-----MIHgMIGaAgEBMA0GCSqG...-----END CERTIFICATE-----"
+const privado=key.exportKey('pkcs1-der')
+console.log(privado)
