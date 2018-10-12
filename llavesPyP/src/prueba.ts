@@ -1,0 +1,10 @@
+import NodeRSA from 'node-rsa'
+const llave1 = new NodeRSA({b:512})
+const llave2= new NodeRSA({b:512})
+//llave1.importKey(privada1,"private")
+//llave1.importKey(publica1,"public")
+llave2.importKey(llave1.exportKey("public"))
+const encriptado =llave1.encryptPrivate("Chinque el america")
+console.log(encriptado)
+const desencriptado = llave2.decryptPublic(encriptado,"utf8")
+console.log(desencriptado)
