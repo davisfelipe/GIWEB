@@ -1,0 +1,32 @@
+{
+  "name": "mensajes-en-cifrado",
+  "version": "1.0.0",
+  "node": "8.1.4",
+  "main": "app.js",
+  "engines": {
+    "node": "10.15.2"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "@types/http-server": "^0.10.0",
+    "@types/socket.io": "^2.1.2",
+    "express": "^4.16.4",
+    "http-server": "^0.11.1",
+    "socket.io": "^2.2.0"
+  },
+  "description": "Aplicación para el intercambio de mensajes mediante ciframiento",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davisfelipe/pruebaChat.git"
+  },
+  "author": "David Peña",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davisfelipe/pruebaChat/issues"
+  },
+  "homepage": "https://github.com/davisfelipe/pruebaChat#readme"
+}
